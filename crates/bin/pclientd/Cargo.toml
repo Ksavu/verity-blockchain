@@ -1,0 +1,77 @@
+[package]
+name = "pclientd"
+authors = {workspace = true}
+repository = {workspace = true}
+description = "Penumbra view server daemon"
+version = {workspace = true}
+license = {workspace = true}
+edition = {workspace = true}
+publish = false
+
+[package.metadata.dist]
+dist = true
+
+[features]
+default = ["std", "download-proving-keys"]
+std = ["ibc-types/std"]
+integration-testnet = []
+sct-divergence-check = ["penumbra-sdk-view/sct-divergence-check"]
+# Enable to use rayon parallelism for crypto operations
+parallel = ["penumbra-sdk-transaction/parallel"]
+download-proving-keys = ["penumbra-sdk-proof-params/download-proving-keys"]
+
+[dependencies]
+anyhow = {workspace = true}
+async-stream = {workspace = true}
+async-trait = {workspace = true}
+bytes = {workspace = true, features = ["serde"]}
+camino = {workspace = true}
+clap = {workspace = true, features = ["derive", "env"]}
+directories = {workspace = true}
+ed25519-consensus = {workspace = true}
+futures = {workspace = true}
+hex = {workspace = true}
+http = {workspace = true}
+http-body = {workspace = true}
+metrics = {workspace = true}
+parking_lot = {workspace = true}
+penumbra-sdk-app = {workspace = true, default-features = false}
+penumbra-sdk-asset = {workspace = true, default-features = true}
+penumbra-sdk-custody = {workspace = true}
+penumbra-sdk-keys = {workspace = true, default-features = true}
+penumbra-sdk-proto = {workspace = true, features = ["rpc"], default-features = true}
+penumbra-sdk-tct = {workspace = true, default-features = true}
+penumbra-sdk-transaction = {workspace = true, default-features = true}
+penumbra-sdk-view = {workspace = true}
+prost = {workspace = true}
+rand = {workspace = true}
+rand_core = {workspace = true, features = ["getrandom"]}
+reqwest = {workspace = true}
+rpassword = {workspace = true}
+rustls = {workspace = true}
+serde = {workspace = true, features = ["derive"]}
+serde_json = {workspace = true}
+serde_with = {workspace = true, features = ["hex"]}
+sha2 = {workspace = true}
+tempfile = {workspace = true}
+tendermint = {workspace = true}
+tokio = {workspace = true, features = ["full"]}
+tokio-stream = {workspace = true, features = ["sync"]}
+toml = {workspace = true}
+tonic = {workspace = true}
+tonic-reflection = {workspace = true}
+tonic-web = {workspace = true}
+tower = {workspace = true}
+tracing = {workspace = true}
+tracing-subscriber = {workspace = true, features = ["env-filter"]}
+url = {workspace = true, features = ["serde"]}
+
+[dev-dependencies]
+assert_cmd = {workspace = true}
+base64 = {workspace = true}
+ibc-proto = {workspace = true, default-features = false, features = ["server"]}
+ibc-types = {workspace = true, default-features = true}
+penumbra-sdk-proof-params = {workspace = true, features = [
+    "bundled-proving-keys",
+    "download-proving-keys",
+], default-features = true}

@@ -1,0 +1,67 @@
+{
+  "actions": [
+    {
+      "undelegate": {
+        "validatorIdentity": {
+          "ik": "1edcSaV2YSnQlv4fYAk5qBsIeuxMDGgzctO2IOYZhP4="
+        },
+        "unbondedAmount": {
+          "lo": "652405107337655181"
+        },
+        "delegationAmount": {
+          "lo": "423191983562764026"
+        },
+        "fromEpoch": {
+          "index": "531",
+          "startHeight": "531"
+        }
+      }
+    },
+    {
+      "positionOpen": {
+        "position": {
+          "phi": {
+            "component": {
+              "p": {
+                "lo": "405908343509531556"
+              },
+              "q": {
+                "lo": "286261227439288925"
+              }
+            },
+            "pair": {
+              "asset1": {
+                "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+              },
+              "asset2": {
+                "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+              }
+            }
+          },
+          "nonce": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+          "state": {
+            "state": "POSITION_STATE_ENUM_CLOSED"
+          },
+          "reserves": {
+            "r1": {
+              "lo": "24069323774632283"
+            },
+            "r2": {
+              "lo": "870580343836603525"
+            }
+          },
+          "closeOnFill": true
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "8897284399",
+    "chainId": "ylobq-86104941540550730124",
+    "fee": {
+      "amount": {
+        "lo": "667876737206031395"
+      }
+    }
+  }
+}

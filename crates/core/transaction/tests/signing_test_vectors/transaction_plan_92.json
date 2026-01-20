@@ -1,0 +1,37 @@
+{
+  "actions": [
+    {
+      "positionClose": {
+        "positionId": {
+          "inner": "dIkWbPwTffJ+aQ1gfF+10NCIYwzy0/0hDY2Tc5TEsic="
+        }
+      }
+    },
+    {
+      "undelegate": {
+        "validatorIdentity": {
+          "ik": "tIFWGcVz07Xmvw+gCGXFoWWu8y45GBX4RWvmqUmK9FQ="
+        },
+        "unbondedAmount": {
+          "lo": "675995424489524486"
+        },
+        "delegationAmount": {
+          "lo": "882404331737823102"
+        },
+        "fromEpoch": {
+          "index": "3181",
+          "startHeight": "3181"
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "8782804295",
+    "chainId": "n-037710",
+    "fee": {
+      "amount": {
+        "lo": "220097666912544663"
+      }
+    }
+  }
+}

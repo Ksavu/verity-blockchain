@@ -1,0 +1,77 @@
+{
+  "actions": [
+    {
+      "validatorVote": {
+        "body": {
+          "proposal": "175315831",
+          "vote": {
+            "vote": "VOTE_ABSTAIN"
+          },
+          "identityKey": {
+            "ik": "kKxjvSE0AikJN4iJdJg8RNCF8e61hvg6YKbZnol7h3A="
+          },
+          "governanceKey": {
+            "gk": "clTuu7wZVhvbu4SKCq5ioO0tSX0d+yAEYLr9O8foUBI="
+          },
+          "reason": {
+            "reason": "oFySNt25WU5e0"
+          }
+        },
+        "authSig": {
+          "inner": "Kl36kXfcQb0Vvkyn6ZdBXRWKSBzNFw4OuJqkSS6ylQyfdkfz6frjYdvuVmosFPq6AvgLonDQXuDfAH7FWjT2AQ=="
+        }
+      }
+    },
+    {
+      "validatorVote": {
+        "body": {
+          "proposal": "360316857",
+          "vote": {
+            "vote": "VOTE_NO"
+          },
+          "identityKey": {
+            "ik": "CtSQBAJkCsQbhOBgPXZ/AVvXRkINCXyogRtwX0CZJMQ="
+          },
+          "governanceKey": {
+            "gk": "0jTtM1R3bF/JaALffpy8IzultQfbQ3jH9lXuplW0bwo="
+          },
+          "reason": {
+            "reason": "c"
+          }
+        },
+        "authSig": {
+          "inner": "aL6k2ip09qW/aAMQq0OD2Sz7Iy/b+tbl8ibEfD8SIRLnls1Lwdl3MW8JmrYF2LhmAZWFw/TNnPoZFVUiXsduAQ=="
+        }
+      }
+    },
+    {
+      "ibcRelayAction": {
+        "rawAction": {
+          "typeUrl": "/ibc.core.channel.v1.MsgRecvPacket",
+          "value": "CrMBCImvjpsBEgtkZWZhdWx0UG9ydBoJY2hhbm5lbC0wIgtkZWZhdWx0UG9ydCoJY2hhbm5lbC0wMmQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOgsIkLyXigMQ49LqJEDoseHAvLu2iBgSAgoAGgsIkLyXigMQ49LqJCKPAXBlbnVtYnJhMTVwdGVhaHN0OTI3Yzc2bDh1d3d3aHdlcDJ1NGdwa2twc3N5MHRteTVzbWc3amRyMDJ6dnRoMHY3bnR6NnhjdmdzdGRtOTR6ZHhncW1tZGhycHZuZTN1bDdjc3NkczVwejBxbGN0Y3Zzemd3ejhyOTdoNjY2NHI4a3ozanNjbHEzYzk2dDN3"
+        }
+      }
+    },
+    {
+      "communityPoolSpend": {
+        "value": {
+          "amount": {
+            "lo": "50200221473260678"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "9866448180",
+    "chainId": "fghavcyccbyypkwjlxsvyyubqidu-66266543671378545040626714023162",
+    "fee": {
+      "amount": {
+        "lo": "593500410798779545"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "actions": [
+    {
+      "proposalSubmit": {
+        "proposal": {
+          "title": "zrfrwigpehbjckzw-0613652929229646",
+          "description": "mxovalcqch-50367770",
+          "signaling": {}
+        },
+        "depositAmount": {
+          "lo": "766889808489133079"
+        }
+      }
+    },
+    {
+      "validatorDefinition": {
+        "validator": {
+          "identityKey": {
+            "ik": "LgkDJ3KQE5WaYZj231yZiGwJACXWjbcifxuu5h+/fwQ="
+          },
+          "consensusKey": "u1DbmaIk2J6fAr493M/Yckk1vLw8SurbmoHbqdwVvXg=",
+          "name": "test validator",
+          "enabled": true,
+          "governanceKey": {
+            "gk": "LgkDJ3KQE5WaYZj231yZiGwJACXWjbcifxuu5h+/fwQ="
+          }
+        },
+        "authSig": "/OdeoxySg7t7Excqef5Vx7NE4SeSA5rWoUfsrlbnFgK78BkUWZKPmvPvIXGkihUqHl2TBAY3XsmajBAhKxjaAQ=="
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "6627548769",
+    "chainId": "ukeftelbjnntmusj-343757451",
+    "fee": {
+      "amount": {
+        "lo": "20865560422820502"
+      }
+    }
+  }
+}

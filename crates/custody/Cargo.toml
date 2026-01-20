@@ -1,0 +1,42 @@
+[package]
+name = "penumbra-sdk-custody"
+authors = {workspace = true}
+repository = {workspace = true}
+description = "Modular custody for Penumbra"
+version = {workspace = true}
+license = {workspace = true}
+edition = {workspace = true}
+
+[dependencies]
+anyhow = {workspace = true}
+argon2 = "0.5"
+ark-ff = {workspace = true}
+ark-serialize = {workspace = true}
+base64 = {workspace = true}
+blake2b_simd = {workspace = true}
+bytes = {workspace = true, features = ["serde"]}
+chacha20poly1305 = {workspace = true}
+decaf377 = {workspace = true}
+decaf377-frost = { version = "2.1.0", path = "../crypto/decaf377-frost" }
+decaf377-ka = {workspace = true}
+decaf377-rdsa = {workspace = true}
+ed25519-consensus = {workspace = true}
+futures = {workspace = true}
+hex = {workspace = true}
+penumbra-sdk-governance = {workspace = true, default-features = false}
+penumbra-sdk-keys = {workspace = true, default-features = true}
+penumbra-sdk-proto = {workspace = true, features = ["rpc"], default-features = true}
+penumbra-sdk-stake = {workspace = true, default-features = false}
+penumbra-sdk-transaction = {workspace = true, default-features = true}
+penumbra-sdk-txhash = {workspace = true, default-features = true}
+prost = {workspace = true}
+rand_core = {workspace = true}
+serde = {workspace = true, features = ["derive"]}
+serde_json = {workspace = true}
+serde_with = {workspace = true, features = ["hex"]}
+tokio = {workspace = true, features = ["full"]}
+tonic = {workspace = true}
+tracing = {workspace = true}
+
+[dev-dependencies]
+toml = {workspace = true}

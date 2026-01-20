@@ -1,0 +1,62 @@
+{
+  "actions": [
+    {
+      "actionDutchAuctionSchedule": {
+        "description": {
+          "input": {
+            "amount": {
+              "lo": "959267011783665143"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          "outputId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          },
+          "maxOutput": {
+            "lo": "751250687122497302"
+          },
+          "minOutput": {
+            "lo": "747682953998530574"
+          },
+          "startHeight": "445800614",
+          "endHeight": "445800615",
+          "stepCount": "601871057",
+          "nonce": "xuboyk6/KREc9EAzRC/BGyaPR6qCWyBtoRrasz4r2co="
+        }
+      }
+    },
+    {
+      "communityPoolOutput": {
+        "value": {
+          "amount": {
+            "lo": "491418530802256378"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "address": {
+          "inner": "jdfbbRIxJIfnJW9mVORP3gcWOyJILEXkAuTpi4IwR7qt98Hd2GZ4Td+Wi30l/D33mr7OGEwwq/B1LhbpZRLKa4ZHKioajeYaJVESFux/7/g="
+        }
+      }
+    },
+    {
+      "positionClose": {
+        "positionId": {
+          "inner": "6ZVTaHiybmvFYuogiLbFGyUmSmuC1VEWNYoQnHuYEN0="
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "5353829317",
+    "chainId": "omyplfrlb-2381799",
+    "fee": {
+      "amount": {
+        "lo": "856586381620898873"
+      }
+    }
+  }
+}

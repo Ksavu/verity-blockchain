@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "spend": {
+        "note": {
+          "value": {
+            "amount": {
+              "lo": "751448120343933306"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          "rseed": "7L/FyeshJmJK7r6Nxuu8hQjRGKrFB0a4dsBwwysOTeI=",
+          "address": {
+            "inner": "r7ae/+8Q9d3QdaAs66/GAAbYBo/Am59nYWeIBU7REchE3LYtFPa1EHW2Lo1KZcRWuXzO/cM54CLSFnv2iArQnxjrlJnTB4nGnuLdFtCY9vc="
+          }
+        },
+        "position": "243045536227121",
+        "randomizer": "zBErvtCVnUMTlWlfgfVv0wcUt8IbjLUosnDcKscsxQM=",
+        "valueBlinding": "5cq4dH+VPe22+wTob7j4vhzM0j5wdKsoAhCaf6csswA=",
+        "proofBlindingR": "epyCi5mlPW0FAK3FJCclkXvOjrKr7KCFZyPkJS9oKgk=",
+        "proofBlindingS": "vuABakiNPN9iJmam3YkX2FsIJik6dFfPX281mEoQFwg="
+      }
+    },
+    {
+      "communityPoolDeposit": {
+        "value": {
+          "amount": {
+            "lo": "201164826129915642"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "4505369932",
+    "chainId": "kvbufljmwrscjssoeyosjigztwnrmgnv-40636733089263",
+    "fee": {
+      "amount": {
+        "lo": "605464275970447147"
+      }
+    }
+  }
+}

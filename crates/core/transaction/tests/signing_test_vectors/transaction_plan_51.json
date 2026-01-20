@@ -1,0 +1,76 @@
+{
+  "actions": [
+    {
+      "validatorVote": {
+        "body": {
+          "proposal": "424073693",
+          "vote": {
+            "vote": "VOTE_YES"
+          },
+          "identityKey": {
+            "ik": "AZo98c88heSoNh2PdZ9kQckOEIX8Gj8iXa16ywUyqBk="
+          },
+          "governanceKey": {
+            "gk": "anxLvQrfpZfY/aIeQOviak5+ly1t7ZD6Et4JU1twwhA="
+          },
+          "reason": {
+            "reason": "TsB0FXuAEjSHJLvwBI8576KGlFQ29Iy4"
+          }
+        },
+        "authSig": {
+          "inner": "3OmiNlnOiWHF5V/M8Vp+gekSbqyM5ngqmTrHvml7lxFQzY9rP7tJoYKpK2otPn/cbo3vfIQY4JtrLabDQd4YBA=="
+        }
+      }
+    },
+    {
+      "ics20Withdrawal": {
+        "amount": {
+          "lo": "54140647838468836"
+        },
+        "denom": {
+          "denom": "qC9P"
+        },
+        "destinationChainAddress": "penumbra15gu5f70462e9rvxgw9u8f73uee2n0gk9znhe4qd3tkw5hy0kk46knyhx2avpxgh2h268d4t3at85d4gl24ldk4l6wla86yzzpdq9a5q8ztw2rqjgfs36g84rpnssuk9fk8hndu",
+        "returnAddress": {
+          "inner": "mwemSk3QAshRRGsiY37HPwBJKexDX7nJtZk4GLsTER/gByAQIsKgADHYDnNSTCSHt07dVRgCww10Dfj2DSQ2FOSrmP1iTy09Xl1k+oclaRI="
+        },
+        "timeoutHeight": {
+          "revisionNumber": "706174073",
+          "revisionHeight": "61357428"
+        },
+        "sourceChannel": "channel-0"
+      }
+    },
+    {
+      "validatorVote": {
+        "body": {
+          "proposal": "931666139",
+          "vote": {
+            "vote": "VOTE_ABSTAIN"
+          },
+          "identityKey": {
+            "ik": "WFGXtIuXwW09FdElSfGZpLe591He0lDY6INLP26fTYY="
+          },
+          "governanceKey": {
+            "gk": "NpCRC6SKD7qSwKJ7iwmtegUIYg8ZvnxTLcrKEWKz7gQ="
+          },
+          "reason": {
+            "reason": "en2FOPKOfWz2pVtfhfuS"
+          }
+        },
+        "authSig": {
+          "inner": "fkgQHALQbL7VPnG8GpJMd8fKykG+l4IXp9QcW0xkVgjE4Nun2n4M/HBvBspQ4P2Qz8Ubd4hOR6ALSNENR1rXAQ=="
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "8661921674",
+    "chainId": "upyutwzhdrhhfngehapfscnoipj-527282011992925063706295339",
+    "fee": {
+      "amount": {
+        "lo": "317449873453524944"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "proposalDepositClaim": {
+        "proposal": "120412060",
+        "depositAmount": {
+          "lo": "406855896174763759"
+        },
+        "outcome": {
+          "passed": {}
+        }
+      }
+    },
+    {
+      "actionDutchAuctionWithdraw": {
+        "auctionId": {
+          "inner": "KCAPhirtUtS/ZA9fay6BvCNsEhSQL6puJNATWVtNRNU="
+        },
+        "seq": "998480260",
+        "reservesInput": {
+          "amount": {
+            "lo": "93405552749813887"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "reservesOutput": {
+          "amount": {
+            "lo": "641266880841386287"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "6491370664",
+    "chainId": "awrtfzbpxviybwnynzvgdfn-048515371193116354",
+    "fee": {
+      "amount": {
+        "lo": "851456879934364220"
+      }
+    }
+  }
+}

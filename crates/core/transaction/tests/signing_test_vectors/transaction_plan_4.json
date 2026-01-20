@@ -1,0 +1,61 @@
+{
+  "actions": [
+    {
+      "actionDutchAuctionWithdraw": {
+        "auctionId": {
+          "inner": "tYen9vdCq6ujbL216qi7ocFMD0wE07BgmY1WKDxSsZ0="
+        },
+        "seq": "618503155",
+        "reservesInput": {
+          "amount": {
+            "lo": "84852211894696562"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "reservesOutput": {
+          "amount": {
+            "lo": "949839836777165243"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        }
+      }
+    },
+    {
+      "proposalSubmit": {
+        "proposal": {
+          "title": "seefqmo-750448",
+          "description": "iuf-844",
+          "signaling": {}
+        },
+        "depositAmount": {
+          "lo": "774139197522646266"
+        }
+      }
+    },
+    {
+      "proposalSubmit": {
+        "proposal": {
+          "title": "sefijeqm-92688048104843706673977014363430",
+          "description": "cbpkaruv-593976592810878117828",
+          "signaling": {}
+        },
+        "depositAmount": {
+          "lo": "978143614202696154"
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "7229120705",
+    "chainId": "etu-2",
+    "fee": {
+      "amount": {
+        "lo": "859783043176233021"
+      }
+    }
+  }
+}

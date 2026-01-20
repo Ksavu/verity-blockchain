@@ -1,0 +1,40 @@
+{
+  "actions": [
+    {
+      "communityPoolDeposit": {
+        "value": {
+          "amount": {
+            "lo": "105487505849066331"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        }
+      }
+    },
+    {
+      "communityPoolOutput": {
+        "value": {
+          "amount": {
+            "lo": "223823246583562188"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "address": {
+          "inner": "0nu/JCr7CH2ujOOSE5V30n8Np4JgnVXlacjBbPS/1Id1ADNEdqcu+wSnQ3SwIZZieMDVigyw8R25TI6hQ1W6jnJBiCiKtMt23hRO3Vzg/5M="
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "6517265301",
+    "chainId": "zzkidrpoeyjqa-309",
+    "fee": {
+      "amount": {
+        "lo": "370447175926720781"
+      }
+    }
+  }
+}

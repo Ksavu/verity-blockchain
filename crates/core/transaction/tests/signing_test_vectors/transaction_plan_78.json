@@ -1,0 +1,51 @@
+{
+  "actions": [
+    {
+      "proposalDepositClaim": {
+        "proposal": "473766891",
+        "depositAmount": {
+          "lo": "297957986956764967"
+        },
+        "outcome": {
+          "passed": {}
+        }
+      }
+    },
+    {
+      "communityPoolOutput": {
+        "value": {
+          "amount": {
+            "lo": "424215752283475438"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "address": {
+          "inner": "aSij68KSXafDXmgTHZGpIX/zs44rB56aBAnoaynqSijGgSABDcZP25+TwHNp8wKBv3a6CddpWe1l2m6+PreYbYlO2nglVP4kx2S7F5L8vZc="
+        }
+      }
+    },
+    {
+      "communityPoolSpend": {
+        "value": {
+          "amount": {
+            "lo": "243485784561771789"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "2886812000",
+    "chainId": "oeipxhgcudkphtmxjwacqy-8106",
+    "fee": {
+      "amount": {
+        "lo": "254426681358060609"
+      }
+    }
+  }
+}

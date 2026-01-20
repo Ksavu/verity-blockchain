@@ -1,0 +1,73 @@
+{
+  "actions": [
+    {
+      "communityPoolDeposit": {
+        "value": {
+          "amount": {
+            "lo": "393187019935644771"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        }
+      }
+    },
+    {
+      "proposalDepositClaim": {
+        "proposal": "290306543",
+        "depositAmount": {
+          "lo": "48616193818956834"
+        },
+        "outcome": {
+          "failed": {}
+        }
+      }
+    },
+    {
+      "spend": {
+        "note": {
+          "value": {
+            "amount": {
+              "lo": "661372411567408266"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          "rseed": "GGHY9JdRl6Kfu1bHvqPHc+HySshyjcdWOBCpzvYBoyw=",
+          "address": {
+            "inner": "r7ae/+8Q9d3QdaAs66/GAAbYBo/Am59nYWeIBU7REchE3LYtFPa1EHW2Lo1KZcRWuXzO/cM54CLSFnv2iArQnxjrlJnTB4nGnuLdFtCY9vc="
+          }
+        },
+        "position": "164205196104512",
+        "randomizer": "QHWSN2dehfJ6dm2Fmhm7qQkUEbs1qAWAQ8suxxnZiAI=",
+        "valueBlinding": "1YXi1xeOjTJjQHAsC4whVtf+gHTW++lnAiBtgWCOnAM=",
+        "proofBlindingR": "wUuYk61y3mp+oyLEfTTxrvFiodtHsK+qTOvyQz4dcws=",
+        "proofBlindingS": "Gx+STxwSuZuhkkuIPiMgenWPrFIjWh34o+T6QguNLgg="
+      }
+    },
+    {
+      "delegate": {
+        "validatorIdentity": {
+          "ik": "5nqr9SpojbPZBs1X+1Nb2Yu3do4KFbodPnCvp4bHS7w="
+        },
+        "epochIndex": "4403",
+        "unbondedAmount": {
+          "lo": "844495116047271892"
+        },
+        "delegationAmount": {
+          "lo": "306847996896290479"
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "4815576432",
+    "chainId": "vwr-19027228743",
+    "fee": {
+      "amount": {
+        "lo": "109368809027710146"
+      }
+    }
+  }
+}

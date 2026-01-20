@@ -1,0 +1,125 @@
+[package]
+name = "pcli"
+version = {workspace = true}
+authors = {workspace = true}
+edition = {workspace = true}
+description = "The command-line interface for the Penumbra Zone"
+repository = {workspace = true}
+homepage = {workspace = true}
+license = {workspace = true}
+publish = false
+
+[package.metadata.dist]
+dist = true
+
+[features]
+default = ["std", "parallel", "download-proving-keys"]
+integration-testnet = []
+download-proving-keys = ["penumbra-sdk-proof-params/download-proving-keys"]
+sct-divergence-check = ["penumbra-sdk-view/sct-divergence-check"]
+std = ["ark-ff/std", "ibc-types/std"]
+parallel = [
+    "penumbra-sdk-proof-params/parallel",
+    "decaf377/parallel",
+    "penumbra-sdk-shielded-pool/parallel",
+    "penumbra-sdk-auction/parallel",
+    "penumbra-sdk-dex/parallel",
+    "penumbra-sdk-governance/parallel",
+    "penumbra-sdk-stake/parallel",
+    "penumbra-sdk-transaction/parallel",
+    "penumbra-sdk-wallet/parallel",
+]
+ledger = ["penumbra-sdk-custody-ledger-usb"]
+
+[dependencies]
+anyhow = {workspace = true}
+pbjson-types = { workspace = true }
+ark-ff = {workspace = true, default-features = false}
+async-stream = {workspace = true}
+base64 = {workspace = true}
+bincode = {workspace = true}
+blake2b_simd = {workspace = true}
+bytes = {workspace = true}
+camino = {workspace = true}
+cnidarium = {workspace = true, features = ["rpc"] }
+clap = {workspace = true, features = ["derive", "env"]}
+colored = "2.1.0"
+colored_json = "4.1"
+comfy-table = "5"
+csv = "1"
+decaf377 = {workspace = true, default-features = true}
+decaf377-rdsa = {workspace = true}
+dialoguer = "0.10.4"
+time = "0.3"
+directories = {workspace = true}
+ed25519-consensus = {workspace = true}
+futures = {workspace = true}
+hex = {workspace = true}
+http-body = {workspace = true}
+humantime = {workspace = true}
+ibc-proto = {workspace = true, default-features = true}
+ibc-types = {workspace = true, features = ["std", "with_serde"], default-features = true}
+indicatif = {workspace = true}
+jmt = {workspace = true}
+ndarray = "0.15.6"
+once_cell = {workspace = true}
+penumbra-sdk-app = {workspace = true, default-features = false}
+penumbra-sdk-asset = {workspace = true, default-features = false}
+penumbra-sdk-community-pool = {workspace = true, default-features = false}
+penumbra-sdk-compact-block = {workspace = true, default-features = false}
+penumbra-sdk-custody = {workspace = true}
+penumbra-sdk-custody-ledger-usb = {workspace = true, optional = true}
+penumbra-sdk-auction = {workspace = true, default-features = false}
+penumbra-sdk-dex = {workspace = true, default-features = false}
+penumbra-sdk-fee = {workspace = true, default-features = false}
+penumbra-sdk-governance = {workspace = true, default-features = false}
+penumbra-sdk-ibc = {workspace = true, default-features = false}
+penumbra-sdk-keys = {workspace = true, default-features = false}
+penumbra-sdk-num = {workspace = true, default-features = false}
+penumbra-sdk-proof-params = { workspace = true, default-features = true }
+penumbra-sdk-proto = {workspace = true, features = ["rpc", "box-grpc"], default-features = true}
+penumbra-sdk-sct = {workspace = true, default-features = false}
+penumbra-sdk-shielded-pool = {workspace = true, default-features = false}
+penumbra-sdk-stake = {workspace = true, default-features = false}
+penumbra-sdk-tct = {workspace = true, default-features = true}
+penumbra-sdk-transaction = {workspace = true, default-features = true}
+penumbra-sdk-view = {workspace = true}
+penumbra-sdk-wallet = {workspace = true}
+pin-project = {workspace = true}
+rand = {workspace = true}
+rand_chacha = {workspace = true}
+rand_core = {workspace = true, features = ["getrandom"]}
+regex = {workspace = true}
+rpassword = {workspace = true}
+rustls = {workspace = true}
+serde = {workspace = true, features = ["derive"]}
+serde_json = {workspace = true}
+serde_with = {workspace = true, features = ["hex"]}
+sha2 = {workspace = true}
+simple-base64 = "0.23"
+tendermint = {workspace = true, features = ["rust-crypto"], default-features = true}
+tokio = {workspace = true, features = ["full"]}
+tokio-stream = {workspace = true}
+tokio-util = {workspace = true}
+toml = {workspace = true, features = ["preserve_order"]}
+tonic = {workspace = true, features = ["tls-webpki-roots", "tls"]}
+tower = {workspace = true, features = ["full"]}
+termion = {workspace = true}
+tracing = {workspace = true}
+tracing-subscriber = {workspace = true, features = ["env-filter", "ansi"]}
+url = {workspace = true, features = ["serde"]}
+
+[dev-dependencies]
+assert_cmd = {workspace = true}
+penumbra-sdk-governance = {workspace = true, default-features = false}
+predicates = "2.1"
+regex = {workspace = true}
+tempfile = {workspace = true}
+
+[dev-dependencies.penumbra-sdk-proof-params]
+default-features = true
+workspace = true
+features = [
+    "bundled-proving-keys",
+    "download-proving-keys",
+]

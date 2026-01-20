@@ -1,0 +1,61 @@
+{
+  "actions": [
+    {
+      "actionDutchAuctionEnd": {
+        "auctionId": {
+          "inner": "HHtNxwMSJ6F1P0SmGwyCZNDR9dTdwQOlzpwC2MoGZq4="
+        }
+      }
+    },
+    {
+      "communityPoolSpend": {
+        "value": {
+          "amount": {
+            "lo": "608983241186304112"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        }
+      }
+    },
+    {
+      "communityPoolSpend": {
+        "value": {
+          "amount": {
+            "lo": "502909648486318144"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        }
+      }
+    },
+    {
+      "undelegateClaim": {
+        "validatorIdentity": {
+          "ik": "jEWeQ/vN2lwyQMWI4pOSAtu/veNeDQvvHklGWpRZj4A="
+        },
+        "penalty": {
+          "inner": "AAAAAAAAAAAAAAAAAAAAAP92X9itq59Vmz0HyEtdzGQ="
+        },
+        "unbondingAmount": {
+          "lo": "8971566673412279"
+        },
+        "balanceBlinding": "LUmPZW9pTKKLP8zpUeYzXx4gDWNSx4gz/ynE2bocxQA=",
+        "proofBlindingR": "1XPp9qjsFdsqhaHBwcb72BXi54wWt4OOljnF2pIpwgI=",
+        "proofBlindingS": "4dpKFpIFSS8U9jdCMgDuL3AOg8stOCIxgqH+0weDhQM=",
+        "unbondingStartHeight": "95137"
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "1182098208",
+    "chainId": "ckdecafjpvpxutt-38",
+    "fee": {
+      "amount": {
+        "lo": "743337841359999839"
+      }
+    }
+  }
+}

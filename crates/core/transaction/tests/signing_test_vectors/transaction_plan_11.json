@@ -1,0 +1,96 @@
+{
+  "actions": [
+    {
+      "proposalDepositClaim": {
+        "proposal": "476535853",
+        "depositAmount": {
+          "lo": "457976547602208863"
+        },
+        "outcome": {
+          "passed": {}
+        }
+      }
+    },
+    {
+      "validatorDefinition": {
+        "validator": {
+          "identityKey": {
+            "ik": "zuyRIEJWVK2dpcaKirMbYupX6+YQDhsvcpgB7CFzfQk="
+          },
+          "consensusKey": "pWNqTlOLYxW3n5Glqfe6eEi9WE6X42zWR60FT2SzFXs=",
+          "name": "test validator",
+          "enabled": true,
+          "governanceKey": {
+            "gk": "zuyRIEJWVK2dpcaKirMbYupX6+YQDhsvcpgB7CFzfQk="
+          }
+        },
+        "authSig": "MnQWxc65YUuZ296yuIBOPDygR2xLmejXKR0ekSgqkAv8m0ZJT/lcfWaXizFp59texkHm968PmAzZt+Sm7DB+Aw=="
+      }
+    },
+    {
+      "ics20Withdrawal": {
+        "amount": {
+          "lo": "794267246988967938"
+        },
+        "denom": {
+          "denom": "aS5Ku6V"
+        },
+        "destinationChainAddress": "penumbra1v6h62h953vntq5jp8lpfu424lwvgm7nzz2n7wjcdu67ku72t5f5lvcan8yfqxay0jhxwnuw6zn65avcrqdnkgklrjmmjrj239fq6xk58suawkah58p74l9t6drkwhfusf4at8e",
+        "returnAddress": {
+          "inner": "etUoNpY+qCM5uRT2wpef+fhvq0VUcT+v6xrSyufqmzQcMA/oeI2/YSe313vTHFt1o9jCuHLUcyni4zcsQ1tMA0BJZiyQ+FwH0iX9ceVr6jo="
+        },
+        "timeoutHeight": {
+          "revisionNumber": "11935217",
+          "revisionHeight": "840842800"
+        },
+        "sourceChannel": "channel-0"
+      }
+    },
+    {
+      "positionOpen": {
+        "position": {
+          "phi": {
+            "component": {
+              "p": {
+                "lo": "293930272935182406"
+              },
+              "q": {
+                "lo": "612882438959240485"
+              }
+            },
+            "pair": {
+              "asset1": {
+                "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+              },
+              "asset2": {
+                "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+              }
+            }
+          },
+          "nonce": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+          "state": {
+            "state": "POSITION_STATE_ENUM_CLOSED"
+          },
+          "reserves": {
+            "r1": {
+              "lo": "299648845398725632"
+            },
+            "r2": {
+              "lo": "576213583086569982"
+            }
+          },
+          "closeOnFill": true
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "2820938358",
+    "chainId": "aipxuwczhmeahwkjvapclzewxn-30943551359469479819555740",
+    "fee": {
+      "amount": {
+        "lo": "260292030400142383"
+      }
+    }
+  }
+}

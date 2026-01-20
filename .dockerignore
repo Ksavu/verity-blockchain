@@ -1,0 +1,22 @@
+# exclude everything by default from container images,
+# re-add directories explicitly.
+**/
+!crates/
+!assets/
+!Cargo.toml
+!Cargo.lock
+!.cargo/
+!rust-toolchain.toml
+
+# testnets for 'pd testnet generate' defaults
+!testnets/
+# metrics containers
+!deployments/config/
+# relayer container
+!deployments/relayer/
+# summonerd tool, for orchestrating contributions
+!tools/summonerd/
+# parameter setup tool, for wrangling circuit configuration
+!tools/parameter-setup/
+# picturesque setup tool, for wrangling node configs
+!tools/picturesque/

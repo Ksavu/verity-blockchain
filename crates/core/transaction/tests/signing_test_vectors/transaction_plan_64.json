@@ -1,0 +1,67 @@
+{
+  "actions": [
+    {
+      "proposalDepositClaim": {
+        "proposal": "255573202",
+        "depositAmount": {
+          "lo": "146493481916344182"
+        },
+        "outcome": {
+          "passed": {}
+        }
+      }
+    },
+    {
+      "validatorVote": {
+        "body": {
+          "proposal": "597976720",
+          "vote": {
+            "vote": "VOTE_ABSTAIN"
+          },
+          "identityKey": {
+            "ik": "4co8U3KHHWu8nF47s6ULHOyhHyDY/UFc1ftFDIPaj7M="
+          },
+          "governanceKey": {
+            "gk": "fkOxdpp7W1VAccRU7Wi6KkSPfMqNTw8pq3yDKhEOYgw="
+          },
+          "reason": {
+            "reason": "s7w1GFO7N9AFd2EQ31R1r7qm667Ro"
+          }
+        },
+        "authSig": {
+          "inner": "LGIrMt3exDny5gWJDdICkFyBuhrI+WpkJfGDopY4SQZEAl7nCQkEMsxqFWWkLYKn3YsByaEpj6g/DhPz34m3AA=="
+        }
+      }
+    },
+    {
+      "validatorDefinition": {
+        "validator": {
+          "identityKey": {
+            "ik": "mpr8yTo8APCCVbRO3cZYwemUGkzVa1/C8/E/f77Orwc="
+          },
+          "consensusKey": "zHph7gJB75LJWQmDc94Np6Z+ZDt9fkk1Q4EYKHlzAyc=",
+          "name": "test validator",
+          "enabled": true,
+          "governanceKey": {
+            "gk": "mpr8yTo8APCCVbRO3cZYwemUGkzVa1/C8/E/f77Orwc="
+          }
+        },
+        "authSig": "dr2WncS2gVakc1rM+tmk9GhUShwZHH7SMmL7IuFWnwWoZFcWP45W9oZh5nU+hhxDi8CT3Z13HtP3Tn1xPkReBA=="
+      }
+    },
+    {
+      "proposalWithdraw": {
+        "proposal": "653515287"
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "120375860",
+    "chainId": "sgzdfwqljpwxclsgdp-7",
+    "fee": {
+      "amount": {
+        "lo": "716224304064910123"
+      }
+    }
+  }
+}

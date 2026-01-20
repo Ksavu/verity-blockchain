@@ -1,0 +1,89 @@
+{
+  "actions": [
+    {
+      "delegatorVote": {
+        "proposal": "286307412",
+        "vote": {
+          "vote": "VOTE_ABSTAIN"
+        },
+        "stakedNote": {
+          "value": {
+            "amount": {
+              "lo": "965008044730558251"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          "rseed": "DKvrR+33qH0rNwzGTLZ7BytFeywORVp9SFSGIPo+w3s=",
+          "address": {
+            "inner": "tHyqi8wKOJiTWujshfjeniX+e73+SiPet3hPVmyHRK7TKDXh3ftdVewnIYBJ+q49Pf9udcPZ3zwoIgD22Y80d1jCUClkuJUQyUl9r+k7eMA="
+          }
+        },
+        "unbondedAmount": {
+          "lo": "856875799536450720"
+        },
+        "randomizer": "4bLpMrQK4sp15R1TwSSKSYkVh7LmrkL/JRs/VCj3RwA=",
+        "proofBlindingR": "/ZTy73s+6KTQq6Fa7Tqtn2ijQ92hxrJzW8NE/jsECws=",
+        "proofBlindingS": "kSTFmJfxYmzP6Oz/NSz1F2QyphpNBbMv/VkrI4wc9gY="
+      }
+    },
+    {
+      "positionClose": {
+        "positionId": {
+          "inner": "mWKapNvCm90g1IWxv+uJe2tQfO/8EbqgqJLOHpNvw3Q="
+        }
+      }
+    },
+    {
+      "swap": {
+        "swapPlaintext": {
+          "tradingPair": {
+            "asset1": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            },
+            "asset2": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          "delta1I": {
+            "lo": "172115022418412250"
+          },
+          "delta2I": {
+            "lo": "390057480338960044"
+          },
+          "claimFee": {
+            "amount": {}
+          },
+          "claimAddress": {
+            "inner": "JT1/ZJ+iB8W0iZMZKVFoIZW20DLowy12+0vfTBs1mQsdw1afpt9fmzm1qTXFxdJQKLFbH9qTPZBMg7aRQ8511pX5MAW25/sEp/z0Ma6euAw="
+          },
+          "rseed": "A9M6CvemjSOCEuOgmck4KTBtfRdLO1twdJaaavRksbk="
+        },
+        "feeBlinding": "XKdgjOFg63dnRC5KdJlXusch7dGJo0jJV4RuVsPoVgE=",
+        "proofBlindingR": "XymF/MXGu2wpOGMmgMF0sLyMHp+9JSnj1JZgVRELKgk=",
+        "proofBlindingS": "ZxTyxkXX8pFb+AflaTsFfZRCTNpSAlzD/yExu6ogKwE="
+      }
+    },
+    {
+      "proposalDepositClaim": {
+        "proposal": "44639541",
+        "depositAmount": {
+          "lo": "831458677785504978"
+        },
+        "outcome": {
+          "failed": {}
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "9905625936",
+    "chainId": "tbkcxzbfrvtotoyjfkbeiicnz-7099071456",
+    "fee": {
+      "amount": {
+        "lo": "210806993933744197"
+      }
+    }
+  }
+}

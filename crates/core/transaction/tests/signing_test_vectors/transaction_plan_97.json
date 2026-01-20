@@ -1,0 +1,52 @@
+{
+  "actions": [
+    {
+      "communityPoolOutput": {
+        "value": {
+          "amount": {
+            "lo": "931106998994222370"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "address": {
+          "inner": "9b+HAFafPR09cK7ZFcEq5N9s84GLlN9nWXUQs7fDEH8GZbqs0XlQMW6Bz8mJ4pUCyRexHQFfwUG+DSn3t9GlxoB0Oo+rm8R1s8aI8XdNCnY="
+        }
+      }
+    },
+    {
+      "actionDutchAuctionWithdraw": {
+        "auctionId": {
+          "inner": "OZa1TjBenh1Af9KL4Uvs/BABtda8yiAMqYgePYjsOlI="
+        },
+        "seq": "369521495",
+        "reservesInput": {
+          "amount": {
+            "lo": "18275459060285815"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "reservesOutput": {
+          "amount": {
+            "lo": "800874051388190217"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "4580144751",
+    "chainId": "ghvwygiemgzlecm-5778450914",
+    "fee": {
+      "amount": {
+        "lo": "267843306180849481"
+      }
+    }
+  }
+}

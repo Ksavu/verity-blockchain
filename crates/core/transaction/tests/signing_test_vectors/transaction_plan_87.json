@@ -1,0 +1,37 @@
+{
+  "actions": [
+    {
+      "undelegateClaim": {
+        "validatorIdentity": {
+          "ik": "+U0BQB7ygOIsm6bPIWOlWqcpjUyAI9L6zBIjHtqyYn0="
+        },
+        "penalty": {
+          "inner": "AAAAAAAAAAAAAAAAAAAAAP6+36Q/5ckdFOO801qFh5Q="
+        },
+        "unbondingAmount": {
+          "lo": "457177636327621561"
+        },
+        "balanceBlinding": "wHi1l1xFM/UxOEFdTLmNZrrZ5vc9gVB7gZaT1sKhVAE=",
+        "proofBlindingR": "LLv2dAUH9/hY9GFXPxXGf2fb9FLmEub2orZNKct7aAc=",
+        "proofBlindingS": "hnm2l27206bHDLjmUrJDIpvglUp1RGXQCtyVs4XDHAw=",
+        "unbondingStartHeight": "57939"
+      }
+    },
+    {
+      "actionDutchAuctionEnd": {
+        "auctionId": {
+          "inner": "FpJ1PJuirpl9LHqb4HHxAbMVBrgGRL1k8KDYMbA8j64="
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "6772438102",
+    "chainId": "j-4978032212083156123",
+    "fee": {
+      "amount": {
+        "lo": "238398828707212304"
+      }
+    }
+  }
+}

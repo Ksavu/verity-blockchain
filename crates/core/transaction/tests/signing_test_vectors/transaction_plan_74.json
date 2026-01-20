@@ -1,0 +1,67 @@
+{
+  "actions": [
+    {
+      "output": {
+        "value": {
+          "amount": {
+            "lo": "340451464773121449"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "destAddress": {
+          "inner": "lZNZUBD0MipStnXuM3cPr22YLwgojKy3JyRlnozn1Vw2hWY1JamId5I9tS8KyQKmnBaZNu59j8IYYJlDdXabCKRK1oqcwa/DCyysxL0Dq8Y="
+        },
+        "rseed": "0/6eGeTmVJ2d7COm+skjceusQMRpISIDt9orcpJRCHE=",
+        "valueBlinding": "kC9OD+rv13/FvJ6cTk2VCz8W8Iioc9B30eZr6h73EgE=",
+        "proofBlindingR": "ZsBBPX1iV2IYPsALhBNk/GNdkqpGqtdNUhlvLhFhwgs=",
+        "proofBlindingS": "gtyxM4NRllH1yM6eg58vlie9KGi7ixmcuhKvuQl6yws="
+      }
+    },
+    {
+      "positionClose": {
+        "positionId": {
+          "inner": "gtPL48051rOkQp+2gn9BrLCj509nYG9oOYKXkhwniP0="
+        }
+      }
+    },
+    {
+      "delegatorVote": {
+        "proposal": "712555247",
+        "vote": {
+          "vote": "VOTE_NO"
+        },
+        "stakedNote": {
+          "value": {
+            "amount": {
+              "lo": "544802747201443663"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          "rseed": "tNwEFKY/HXH4Yy2O1nkj7uMzjFPWWgM0RIuLTiCQlGE=",
+          "address": {
+            "inner": "r5mziC+H/DhYViULTsGWLZPHP23RaFodCaq5nkbP/ozoE5+BeOwiHtz9fQ6oYqaxUpdSiLEPaN7lxzZLPpO7WmAcFhTLiKamhrai9SiKyGg="
+          }
+        },
+        "unbondedAmount": {
+          "lo": "717142667821755777"
+        },
+        "randomizer": "HTUNWh9GEIWD6NWa7faTnQvORMkg2NwaEkRehdg1FAA=",
+        "proofBlindingR": "fy864FBG0NtSQU1TjJlJeonN9YpdR/8Qx8G9sNIjuQo=",
+        "proofBlindingS": "YteMXag2Qd02/JE9tblmA16xKkpsYn9aMlHGSdEhtQ0="
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "1077693046",
+    "chainId": "kdduyqffphbnqajbpuljdmmoifcplxtz-00476524308212980",
+    "fee": {
+      "amount": {
+        "lo": "642501004680437559"
+      }
+    }
+  }
+}

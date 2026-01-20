@@ -1,0 +1,77 @@
+{
+  "actions": [
+    {
+      "actionDutchAuctionWithdraw": {
+        "auctionId": {
+          "inner": "Ebkw77OmywWGtpcB2gTOVNdaKPoVty4ds+3Wwae9+T8="
+        },
+        "seq": "566502593",
+        "reservesInput": {
+          "amount": {
+            "lo": "153567350831122269"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "reservesOutput": {
+          "amount": {
+            "lo": "729359186201394366"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        }
+      }
+    },
+    {
+      "validatorDefinition": {
+        "validator": {
+          "identityKey": {
+            "ik": "gmSFpOpq6qAbdJIkfigBbyxxcJtBpFGZF9UogI0aLxE="
+          },
+          "consensusKey": "iEaJjSBKrHH8a1/TGFda05/odkKHCnMPwW7fIn0OHEc=",
+          "name": "test validator",
+          "enabled": true,
+          "governanceKey": {
+            "gk": "gmSFpOpq6qAbdJIkfigBbyxxcJtBpFGZF9UogI0aLxE="
+          }
+        },
+        "authSig": "NCD5R43L97s8o/wyqW6IPXiQePB2xdSWku0jTKGkzwg1d/Ooc/Y2BekBPiLexY9p68/TUXiveXicz6LoEyVSAQ=="
+      }
+    },
+    {
+      "actionDutchAuctionWithdraw": {
+        "auctionId": {
+          "inner": "0JUM/Bm6bTFjVmdWO+Z7LRjxpOcZsenc7KzDtlm5h6E="
+        },
+        "seq": "757578885",
+        "reservesInput": {
+          "amount": {
+            "lo": "646532044673010656"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "reservesOutput": {
+          "amount": {
+            "lo": "465630247405672762"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "7162048338",
+    "chainId": "flsotzgnlautqbiqldcfdubkdokkgjfa-8149786884447743",
+    "fee": {
+      "amount": {
+        "lo": "318135002609846213"
+      }
+    }
+  }
+}

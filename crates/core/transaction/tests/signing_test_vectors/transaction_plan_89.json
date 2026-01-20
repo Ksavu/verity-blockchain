@@ -1,0 +1,67 @@
+{
+  "actions": [
+    {
+      "actionDutchAuctionSchedule": {
+        "description": {
+          "input": {
+            "amount": {
+              "lo": "181451187935194818"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          "outputId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          },
+          "maxOutput": {
+            "lo": "981467343483746236"
+          },
+          "minOutput": {
+            "lo": "816154240701797997"
+          },
+          "startHeight": "838332756",
+          "endHeight": "838332757",
+          "stepCount": "79700368",
+          "nonce": "LxX4R1QJUcAL64eNQVtNu2mmCnm2bnzuBdVPV6UieBY="
+        }
+      }
+    },
+    {
+      "actionDutchAuctionSchedule": {
+        "description": {
+          "input": {
+            "amount": {
+              "lo": "17016452041769541"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          "outputId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          },
+          "maxOutput": {
+            "lo": "364101025380650949"
+          },
+          "minOutput": {
+            "lo": "926771860551171596"
+          },
+          "startHeight": "27854867",
+          "endHeight": "27854868",
+          "stepCount": "516191274",
+          "nonce": "UZpstblKi4261jzwv7WKD6GJk6W3ee92X24S2iqSEyE="
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "6710415564",
+    "chainId": "ebrul-565648844622071770384975869",
+    "fee": {
+      "amount": {
+        "lo": "896098301936349283"
+      }
+    }
+  }
+}

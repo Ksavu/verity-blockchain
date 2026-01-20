@@ -1,0 +1,45 @@
+[package]
+name = "penumbra-sdk-fee"
+authors = {workspace = true}
+repository = {workspace = true}
+description = "Multidimensional fee implementation for Penumbra"
+version = {workspace = true}
+license = {workspace = true}
+edition = {workspace = true}
+
+[features]
+component = [
+    "cnidarium-component",
+    "cnidarium",
+    "penumbra-sdk-proto/cnidarium",
+    "tonic",
+    "penumbra-sdk-proto/rpc"
+]
+default = ["std", "component"]
+std = ["ark-ff/std"]
+docsrs = []
+
+[dependencies]
+anyhow = {workspace = true}
+ark-ff = {workspace = true, default-features = false}
+async-trait = {workspace = true}
+blake2b_simd = {workspace = true}
+bytes = {workspace = true}
+cnidarium = {workspace = true, optional = true, default-features = true}
+cnidarium-component = {workspace = true, optional = true, default-features = true}
+decaf377 = {workspace = true, default-features = true}
+decaf377-rdsa = {workspace = true}
+im = {workspace = true}
+metrics = {workspace = true}
+penumbra-sdk-asset = {workspace = true, default-features = false}
+penumbra-sdk-num = {workspace = true, default-features = false}
+penumbra-sdk-proto = {workspace = true, default-features = false}
+rand = {workspace = true}
+rand_core = {workspace = true, features = ["getrandom"]}
+serde = {workspace = true, features = ["derive"]}
+tendermint = {workspace = true}
+tonic = {workspace = true, optional = true}
+tracing = {workspace = true}
+
+[dev-dependencies]
+getrandom = {workspace = true}

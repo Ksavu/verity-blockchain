@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "proposalSubmit": {
+        "proposal": {
+          "title": "zeywfcdsvjgzksgbtututtjefa-28853910783667841305365644150",
+          "description": "lipqxjmosregeftvjdtdigm-62",
+          "signaling": {}
+        },
+        "depositAmount": {
+          "lo": "28331719177698758"
+        }
+      }
+    },
+    {
+      "positionWithdraw": {
+        "reserves": {
+          "r1": {
+            "lo": "880990439135497488"
+          },
+          "r2": {
+            "lo": "169746615128594561"
+          }
+        },
+        "positionId": {
+          "inner": "8ILW1neZZGlzNWVNICKdjwQNsvmfHXCe+rt83WWYOPs="
+        },
+        "pair": {
+          "asset1": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          },
+          "asset2": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "sequence": "1"
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "2498312553",
+    "chainId": "gnamgtbskhkrwtcjzqll-533676462220084624189983359806",
+    "fee": {
+      "amount": {
+        "lo": "199236916972045568"
+      }
+    }
+  }
+}

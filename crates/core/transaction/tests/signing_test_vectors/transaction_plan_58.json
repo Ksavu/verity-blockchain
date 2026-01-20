@@ -1,0 +1,77 @@
+{
+  "actions": [
+    {
+      "actionDutchAuctionWithdraw": {
+        "auctionId": {
+          "inner": "BGY2kG+2/x3VAUCYADtWUGrwIXE39Ai5j+45rBga9Mg="
+        },
+        "seq": "983655910",
+        "reservesInput": {
+          "amount": {
+            "lo": "325215323222150299"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "reservesOutput": {
+          "amount": {
+            "lo": "638696139676493847"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        }
+      }
+    },
+    {
+      "undelegate": {
+        "validatorIdentity": {
+          "ik": "Z+4nBW//s2iXqE1G3drN6SC6Zcyc7+hzV8wYES8rVqQ="
+        },
+        "unbondedAmount": {
+          "lo": "151639903755702094"
+        },
+        "delegationAmount": {
+          "lo": "297568485656866828"
+        },
+        "fromEpoch": {
+          "index": "9866",
+          "startHeight": "9866"
+        }
+      }
+    },
+    {
+      "spend": {
+        "note": {
+          "value": {
+            "amount": {
+              "lo": "409023923114919134"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          "rseed": "29K+cZP1DycQtWSPdZVm5OSJDJd5/oMbkbFukyY2wm4=",
+          "address": {
+            "inner": "r7ae/+8Q9d3QdaAs66/GAAbYBo/Am59nYWeIBU7REchE3LYtFPa1EHW2Lo1KZcRWuXzO/cM54CLSFnv2iArQnxjrlJnTB4nGnuLdFtCY9vc="
+          }
+        },
+        "position": "29224606159498",
+        "randomizer": "TboV/lsombk22hnr8KdfTyfjJUA7lS+u9j1pZvxBWAI=",
+        "valueBlinding": "y6qZ8kJerfsevFERn6WCIMp+Lbuj/E8fwpFzjVlTpQQ=",
+        "proofBlindingR": "ka/62rSvm5WLx2uETTdc1uD+LUf1zKnZXXdomaR3cAc=",
+        "proofBlindingS": "fx4jYBG9YDxRctylpweD2NaqZt3D3+48YnMriowq0wE="
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "7840962923",
+    "chainId": "jbdcfoznudtbqw-395671294758790869",
+    "fee": {
+      "amount": {
+        "lo": "876984997263009570"
+      }
+    }
+  }
+}

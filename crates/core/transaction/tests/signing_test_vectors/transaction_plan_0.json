@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "positionWithdraw": {
+        "reserves": {
+          "r1": {
+            "lo": "13648740409960435"
+          },
+          "r2": {
+            "lo": "756856335878883454"
+          }
+        },
+        "positionId": {
+          "inner": "STNeLtIut4nZAZOgE2tGZMRof1ge1GThQiZ0S3ReG20="
+        },
+        "pair": {
+          "asset1": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          },
+          "asset2": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "sequence": "1"
+      }
+    },
+    {
+      "proposalSubmit": {
+        "proposal": {
+          "title": "eruqiigybuwslelyedqzuejy-9415523",
+          "description": "bnsgnfxdfqopuoofieudfassceif-7983516",
+          "signaling": {}
+        },
+        "depositAmount": {
+          "lo": "755307093195598306"
+        }
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "8043970505",
+    "chainId": "dgptroyoifjvsxy-559380648",
+    "fee": {
+      "amount": {
+        "lo": "428924731905324533"
+      }
+    }
+  }
+}

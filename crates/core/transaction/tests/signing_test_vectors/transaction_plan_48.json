@@ -1,0 +1,62 @@
+{
+  "actions": [
+    {
+      "proposalWithdraw": {
+        "proposal": "843893421"
+      }
+    },
+    {
+      "communityPoolOutput": {
+        "value": {
+          "amount": {
+            "lo": "810187426565504444"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "address": {
+          "inner": "ss+bcEmKMAcFvr3a8nquQgE3bJJ11mJwu4SenHJp6PvooYNrHiq989dK7HXt0G7SABKfgKOosyUHCMfe/dIq7Q3XtJYopBHd3BEZoCKIMng="
+        }
+      }
+    },
+    {
+      "proposalWithdraw": {
+        "proposal": "758716570"
+      }
+    },
+    {
+      "positionWithdraw": {
+        "reserves": {
+          "r1": {
+            "lo": "980119925094349979"
+          },
+          "r2": {
+            "lo": "400519731478096542"
+          }
+        },
+        "positionId": {
+          "inner": "bsWNutFCNQkURuGkyxmNmwwsP3Jd9XUSCtyabolaYCE="
+        },
+        "pair": {
+          "asset1": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          },
+          "asset2": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "sequence": "1"
+      }
+    }
+  ],
+  "transactionParameters": {
+    "expiryHeight": "3101462334",
+    "chainId": "vyklgcjeqbjn-17638596568242081315848442011998",
+    "fee": {
+      "amount": {
+        "lo": "642867356857420384"
+      }
+    }
+  }
+}
