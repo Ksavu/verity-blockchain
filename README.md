@@ -30,7 +30,7 @@ Verity Network is a high-performance privacy blockchain featuring 5-second block
 
 - **Block Explorer**: [explorer.veritynetwork.io](https://explorer.veritynetwork.io)
 - **DEX Interface**: [Verity Swap](https://verityswap.netlify.app)
-- **Mobile Wallet**: [Verity Wallet](https://github.com/Ksavu/verity-testnet)
+- **Mobile Wallet**: [Verity Wallet](https://verity-wallet-pwa.vercel.app)
 - **Website**: [veritynetwork.io](https://veritynetwork.io)
 
 ## 🛠️ Building from Source
